@@ -13,34 +13,34 @@ As tarefas podem ser encontradas em https://app.asana.com/0/1199504416290173/119
 
 ## Configurações de rede
 ### LAN
-**VLAN ID** 302
-**Rede** 10.233.0.0/24
-**Servidor Windows 2019** 10.233.0.7
-**Host Windows 10** DHCP
-**Fortigate 40F** 10.233.0.1
+**VLAN ID** 302<br/>
+**Rede** 10.233.0.0/24<br/>
+**Servidor Windows 2019** 10.233.0.7<br/>
+**Host Windows 10** DHCP<br/>
+**Fortigate 40F** 10.233.0.1<br/>
 **Switch Core** 10.233.0.2
 
 ### WAN
-**Rede** 10.233.1.0/24
-**Fortigate 40F** 10.233.1.1
+**Rede** 10.233.1.0/24<br/>
+**Fortigate 40F** 10.233.1.1<br/>
 **Firewall ASA** 10.233.1.2
 
 ## Configurações de domínio
-**Nome do domínio** coopercica.com
-**Usuário admin** administrator
-**Senha admin** 0PP0rtunity
-**Usuario local** cassio
+**Nome do domínio** coopercica.com<br/>
+**Usuário admin** administrator<br/>
+**Senha admin** 0PP0rtunity<br/>
+**Usuario local** cassio<br/>
 **Senha usuario local** 0PP0rtunity
 
 ## Configurações VMware Server
 Networking >> Port groups >> Add port group
-**Name** lab-coopercica
-**VLAN ID** 302
+**Name** lab-coopercica<br/>
+**VLAN ID** 302<br/>
 **Virtual Switch** vSwitch0
 
 Virtual Machines
 2 máquinas virtuais criadas
-**lab-coopercica-win10** Host Windows 10
+**lab-coopercica-win10** Host Windows 10<br/>
 **lab-coopercica-win2019** Servidor Windows 2019
 
 
