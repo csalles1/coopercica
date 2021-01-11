@@ -33,7 +33,7 @@ As tarefas podem ser encontradas em https://app.asana.com/0/1199504416290173/119
 **Senha usuario local** 0PP0rtunity
 
 ## Configurações VMware Server
-Networking >> Port groups >> Add port group
+Networking >> Port groups >> Add port group<br/>
 **Name** lab-coopercica<br/>
 **VLAN ID** 302<br/>
 **Virtual Switch** vSwitch0
