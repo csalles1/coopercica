@@ -81,11 +81,11 @@ Serviços Instalados
 * DNS
 
 ### DHCP
-**Escopo** 10.233.0.50 até 10.233.0.60
-**Lease** 8 dias
-**Gateway** 10.233.0.1
-**DNS** 10.233.0.7
-**Option 121** 192.168.0.0 mask 255.255.255.0 10.233.0.2
+**Escopo** 10.233.0.50 até 10.233.0.60<br/>
+**Lease** 8 dias<br/>
+**Gateway** 10.233.0.1<br/>
+**DNS** 10.233.0.7<br/>
+**Option 121** 192.168.0.0 mask 255.255.255.0 10.233.0.2<br/>
 
 ### Rota estática
 ```powershell
@@ -94,13 +94,13 @@ route add 192.168.0.0 mask 255.255.255.0 10.233.0.2 -p
 
 ## Windows 10
 ### Usuário local
-**user** admin
-**pass** 0PP0rtunity
+**user** admin<br/>
+**pass** 0PP0rtunity<br/>
 A resposta para todas as perguntas de segurança de recuperação de senha é **oppti**
 
 ## Fortigate 40F
-**Versão** 6.4.4
-**Usuário** admin
+**Versão** 6.4.4<br/>
+**Usuário** admin<br/>
 **Senha** admin
 
 ```
