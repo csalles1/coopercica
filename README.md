@@ -1,7 +1,7 @@
 # Lab FSSO Coopercica
 
 ## Objetivo
-Testar autenticação passiva e ativa no Fortigate utilizando o Windows AD como base de usuários.
+Testar autenticação passiva e ativa no Fortigate utilizando o Windows AD como base de usuários.<br/>
 
 As tarefas podem ser encontradas em https://app.asana.com/0/1199504416290173/1199529003438156/f
 
@@ -36,10 +36,10 @@ As tarefas podem ser encontradas em https://app.asana.com/0/1199504416290173/119
 Networking >> Port groups >> Add port group<br/>
 **Name** lab-coopercica<br/>
 **VLAN ID** 302<br/>
-**Virtual Switch** vSwitch0
+**Virtual Switch** vSwitch0<br/>
 
-Virtual Machines
-2 máquinas virtuais criadas
+Virtual Machines<br/>
+2 máquinas virtuais criadas<br/>
 **lab-coopercica-win10** Host Windows 10<br/>
 **lab-coopercica-win2019** Servidor Windows 2019
 
